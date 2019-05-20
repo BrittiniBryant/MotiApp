@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/beach"
+        android:id="@+id/imageView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motivation_ques"
+        android:textSize="25sp"
+        android:paddingTop="200dp"
+        android:scaleType="center"
+        android:paddingLeft="100dp"
+        android:paddingStart="100dp"
+        android:id="@+id/motiText"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beyonce_button"
+        android:id="@+id/beyButton"
+        android:layout_below="@id/motiText"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="12sp"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/beyButton"
+        android:layout_toEndOf="@id/beyButton"
+        android:text="@string/oprah_button"
+        android:id="@+id/oprahButton"
+        android:layout_below="@id/motiText"
+        android:layout_marginTop="100dp"
+        android:textSize="12sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tylerButton"
+        android:layout_below="@id/beyButton"
+        android:text="@string/tyler_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="12sp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tylerButton"
+        android:layout_toEndOf="@id/tylerButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="12sp"
+        android:id="@+id/michelleButton"
+        android:text="@string/michelle_button"
+        android:layout_marginTop="385dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tylerButton"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/serena_button"
+        android:textSize="12sp"
+        android:id="@+id/serenaButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drakeButton"
+        android:text="@string/drake_button"
+        android:textSize="12sp"
+        android:layout_below="@+id/serenaButton"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jayButton"
+        android:text="@string/jay_button"
+        android:textSize="12sp"
+        android:layout_below="@id/drakeButton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aliButton"
+        android:text="@string/ali_button"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/drakeButton"
+        android:layout_below="@id/serenaButton"
+        android:layout_toEndOf="@id/drakeButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mayaButton"
+        android:text="@string/maya_button"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/jayButton"
+        android:layout_below="@id/aliButton"
+        android:layout_toEndOf="@id/jayButton"/>
+</RelativeLayout>
